@@ -1,0 +1,16 @@
+La cadena ingresada es: (((())))
+
+La evaluacion es: 
+
+B
+Regla: "(RB" ---> (RB
+Regla: "(RR" ---> ((RRB
+Regla: "(RR" ---> (((RRRB
+Regla: "(RR" ---> ((((RRRRB
+Regla: ")" ---> (((()RRRB
+Regla: ")" ---> (((())RRB
+Regla: ")" ---> (((()))RB
+Regla: ")" ---> (((())))
+(((())))
+
+Los paréntesis están balanceados
